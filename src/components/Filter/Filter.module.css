@@ -10,6 +10,8 @@
 }
 
 .filterName:focus,
-.filterName:hover {
+.filterName:hover,
+.filterName:active {
   background-color: rgba(223, 204, 251, 0.956);
+  border: 3px solid #713abe;
 }
