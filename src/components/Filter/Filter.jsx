@@ -13,6 +13,7 @@ export const Filter = () => {
           className={css.filterName}
           onChange={e => dispatch(filter(e.currentTarget.value))}
           type="text"
+          name="filter"
         />
       </label>
     </div>
